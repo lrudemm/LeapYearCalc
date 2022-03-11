@@ -1,9 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
-  background: rgb(10,146,231);
-	background: linear-gradient(145deg, rgba(10,146,231,1) 0%, rgba(77,179,247,1) 35%, rgba(83,222,250,1) 100%);
-	height: vh;
+	background: silver;
   font-family: Verdana, sans-serif;
   text-align: center;
+}
+
+.banner {
+	height: 100px;
+	width: 75%;
+	margin: auto;
+	padding: 20px;
+	background: blue; 
+}
+
+.calculator {
+	height: 500px;
+	width: 75%;
+	margin: auto;
+	padding: 20px;
+	background: rgb(10,146,231);
+	background: linear-gradient(145deg, rgba(10,146,231,1) 0%, 				rgba(77,179,247,1) 35%, rgba(83,222,250,1) 100%);
 }
 
 h1 {
