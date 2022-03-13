@@ -28,6 +28,8 @@ body {
 
 h1 {
   padding: 50px 0;
+	color: white;
+	font-size: 3rem;
 }
 
 input {
@@ -35,4 +37,8 @@ input {
   border-radius: 10px;
   text-align: center;
   background: lightgrey;
+}
+
+button {
+	padding: 10px 20px;
 }
